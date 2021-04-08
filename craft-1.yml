@@ -52,7 +52,7 @@ Resources:
       - Name: react-app
         Cpu: '50'
         Essential: 'true'
-        Image: nginx:latest
+        Image: 742458490805.dkr.ecr.ap-south-1.amazonaws.com/craft-task-test-1:latest
         Memory: '300'
         PortMappings:
         - ContainerPort: 3000
